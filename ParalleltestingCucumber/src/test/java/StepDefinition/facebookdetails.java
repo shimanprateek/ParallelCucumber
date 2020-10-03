@@ -57,7 +57,7 @@ public class facebookdetails {
 		pgObj.txtbx_Email.clear();
 		pgObj.txtbx_Email.sendKeys("shiman.prateek@gmail.com");
 		pgObj.txtbx_Pass.clear();
-		pgObj.txtbx_Pass.sendKeys("shiman");
+		pgObj.txtbx_Pass.sendKeys("xxxxxx");
 		pgObj.btn_Pass.click();*/
 		//Reporter.addStepLog("Scenario Step : PASS ");
 	}
