@@ -1,0 +1,7 @@
+Parallel02IT.class
+Parallel01IT.class
+StepDefinition\facebookdetails.class
+Trigger\TEST.class
+ObjectRepository\pgObjHome.class
+Reusable\commonFramework.class
+ObjectRepository\pgObjFbLogIn.class

@@ -1,0 +1,67 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 11,
+            "value": "#When I login with credentials"
+          },
+          {
+            "line": 12,
+            "value": "#Then I logout"
+          }
+        ],
+        "line": 14,
+        "name": "ALogInOtherOther",
+        "description": "",
+        "id": "login-to-facebook-session3;aloginotherother",
+        "after": [
+          {
+            "result": {
+              "duration": 1743794100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "facebookdetails.i_logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14017951300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on facebook page \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 23
+                }
+              ],
+              "location": "facebookdetails.i_am_on_facebook_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn to Facebook Session3",
+    "description": "",
+    "id": "login-to-facebook-session3",
+    "keyword": "Feature",
+    "uri": "C:/Users/shima/workspace/ParalleltestingCucumber/src/test/java/Features/test3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke3"
+      }
+    ]
+  }
+]

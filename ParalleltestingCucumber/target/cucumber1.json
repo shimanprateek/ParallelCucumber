@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "LogIn in test2",
+        "description": "",
+        "id": "login-to-facebook-session2;login-in-test2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15689247200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on facebook page \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 23
+                }
+              ],
+              "location": "facebookdetails.i_am_on_facebook_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with credentials",
+            "match": {
+              "location": "facebookdetails.i_login_with_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1564946200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I logout",
+            "match": {
+              "location": "facebookdetails.i_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn to Facebook Session2",
+    "description": "",
+    "id": "login-to-facebook-session2",
+    "keyword": "Feature",
+    "uri": "test2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke3"
+      }
+    ]
+  }
+]

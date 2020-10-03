@@ -1,0 +1,57 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "LogIn in test2",
+        "description": "",
+        "id": "login-to-facebook-session2;login-in-test2",
+        "after": [
+          {
+            "result": {
+              "duration": 1221906100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "facebookdetails.i_logout()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19217264200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on facebook page \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 23
+                }
+              ],
+              "location": "facebookdetails.i_am_on_facebook_page(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn to Facebook Session2",
+    "description": "",
+    "id": "login-to-facebook-session2",
+    "keyword": "Feature",
+    "uri": "C:/Users/shima/workspace/ParalleltestingCucumber/src/test/java/Features/test2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke3"
+      }
+    ]
+  }
+]

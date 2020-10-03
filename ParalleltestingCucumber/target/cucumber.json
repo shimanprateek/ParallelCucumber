@@ -1,0 +1,174 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "LogIn",
+        "description": "",
+        "id": "login-to-facebook-session3;login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20103893200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on facebook page \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 23
+                }
+              ],
+              "location": "facebookdetails.i_am_on_facebook_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login with credentials",
+            "match": {
+              "location": "facebookdetails.i_login_with_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85906500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I logout",
+            "match": {
+              "location": "facebookdetails.i_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "BLogInOther",
+        "description": "",
+        "id": "login-to-facebook-session3;bloginother",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15208457100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on facebook page \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 23
+                }
+              ],
+              "location": "facebookdetails.i_am_on_facebook_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I login with credentials",
+            "match": {
+              "location": "facebookdetails.i_login_with_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83847600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I logout",
+            "match": {
+              "location": "facebookdetails.i_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "ALogInOtherOther",
+        "description": "",
+        "id": "login-to-facebook-session3;aloginotherother",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16793167200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on facebook page \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 23
+                }
+              ],
+              "location": "facebookdetails.i_am_on_facebook_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I login with credentials",
+            "match": {
+              "location": "facebookdetails.i_login_with_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87499600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I logout",
+            "match": {
+              "location": "facebookdetails.i_logout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LogIn to Facebook Session3",
+    "description": "",
+    "id": "login-to-facebook-session3",
+    "keyword": "Feature",
+    "uri": "test3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke3"
+      }
+    ]
+  }
+]
